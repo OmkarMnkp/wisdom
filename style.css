@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    margin-top: 30px;
+    height: 60px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 30px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left,
+.middle,
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: #FAFAFA;
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.right {
+    background-color: #FAFAFA;
+    margin-top: 10px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+
+}
+
+#contact {
+    margin-left: 20px;
+    border-radius: 20px;
+    border: 0.5px solid #797777;
+    background-color: #FEFEFF;
+}
+
+.middle {
+    margin-top: 10px;
+    height: 40px;
+    background-color: #FEFEFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.middle img {
+    height: 20px;
+    margin-left: 10px;
+}
+
+a {
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container1 {
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 450px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    position: relative;
+}
+
+.left-content {
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+}
+
+.left-content h1 {
+    font-size: 50px;
+}
+
+.left-content h3 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.left-content input {
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 56%;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.left-content button {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 20%;
+    width: 100px;
+}
+
+.hero-left {
+    /* background-color: yellow; */
+    height: 450px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right {
+    /* background-color: orange; */
+    height: 400px;
+    width: 50%;
+}
+
+.hero-right img {
+    height: 510px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.container2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container2 h3 {
+    font-size: 35px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 10px;
+    padding-top: 20px;
+    height: 250px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: red; */
+    position: relative;
+}
+
+.box1 {
+    height: 190px;
+    /* background-color: yellow; */
+    width: 290px;
+    position: absolute;
+    left: 20px;
+    text-align: left;
+}
+
+.box2 {
+    height: 190px;
+    /* background-color: yellow; */
+    position: absolute;
+    left: 470px;
+    width: 290px;
+    text-align: left;
+}
+
+.box3 {
+    height: 190px;
+    /* background-color: yellow; */
+    position: absolute;
+    right: 20px;
+    width: 290px;
+    text-align: left;
+}
+
+.box1 h2,
+p {
+    margin-top: 10px;
+}
+
+.box2 h2,
+p {
+    margin-top: 10px;
+}
+
+.box3 h2,
+p {
+    margin-top: 10px;
+}
+
+.container3 {
+    /* background-color: red; */
+    height: 590px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+
+#h {
+    font-size: 40px;
+}
+
+.card-container {
+    margin-top: 20px;
+    /* background-color: yellow; */
+    height: 450px;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-card {
+    height: 230px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.img-card img {
+    
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#hh {
+    margin-top: 90px;
+    padding-left: 10px;
+}
+
+.card {
+    background-color: #e9e5e5;
+    height: 440px;
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 29px;
+    border: 1px solid grey;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.star {
+    padding-left: 10px;
+}
+
+
+.container4 {
+    /* background-color: yellow; */
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero2 {
+    height: 390px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-hero2 {
+    height: 370px;
+    width: 450px;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 100px;
+}
+
+
+.left-hero2 #hhh,
+h4 {
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.btn {
+    /* background-color: rgb(43, 255, 0); */
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-self: left;
+    margin-top: 15px;
+
+}
+
+.btn button {
+    height: 40px;
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid #1F1F1F;
+    cursor: pointer;
+
+}
+
+#black {
+    background-color: #1F1F1F;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.right-hero2 {
+    height: 400px;
+    width: 450px;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 100px;
+}
+
+.right-hero2 img {
+    height: 375px;
+    width: 470px;
+}
+
+.count-bottom {
+    /* background-color: white; */
+    height: 100px;
+    position: relative;
+}
+
+.bottom-text {
+    /* background-color: white; */
+    height: 100px;
+    position: relative;
+}
+
+.count {
+    text-align: left;
+    margin-top: 25px;
+    /* background-color: rgba(255, 0, 200, 0.322); */
+    height: 45px;
+    width: 440px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10px;
+    /* padding-right: 270px; */
+
+}
+
+.count #h11 {
+    font-size: 45px;
+    position: absolute;
+    left: 0px;
+}
+
+.count #h12 {
+    font-size: 45px;
+    position: absolute;
+    left: 120px;
+}
+
+.count #h13 {
+    font-size: 45px;
+    position: absolute;
+    left: 230px;
+}
+
+#p11 {
+    /* font-size: 40px; */
+    position: absolute;
+    left: 0px;
+}
+
+#p12 {
+    /* font-size: 40px; */
+    position: absolute;
+    left: 120px;
+}
+
+#p13 {
+    /* font-size: 40px; */
+    position: absolute;
+    left: 230px;
+}
+
+.bottom-text {
+    /* background-color: aquamarine; */
+    height: 30px;
+    width: 440px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container5 {
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 380px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #C1DEE8, #FBD9B9);
+    position: relative;
+}
+
+.left-content2 {
+
+    height: 400px;
+    width: 400px;
+    /* background-color: red; */
+}
+
+.left-content2 h1 {
+    font-size: 50px;
+}
+
+.left-content2 h3 {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.left-content2 input {
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    width: 56%;
+    position: relative;
+    padding-left: 10px;
+}
+
+.left-content2 button {
+    margin-top: 20px;
+    height: 40px;
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 20%;
+    width: 100px;
+}
+
+.hero-left2 {
+    /* background-color: yellow; */
+    height: 490px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-right2 {
+    /* background-color: orange; */
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+.hero-right2 img {
+    height: 440px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+
+}
+
+
+
+
+/* responsive */
+
+@media screen and (max-width:540px) {
+    .navbar{
+        /* background-color: red; */
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        height: 15%;
+    }
+    .left,.middle,.right{
+        margin-top: 25px;
+    }
+   
+    .container1{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 320px;
+        
+    }
+    .inp button{
+        margin-left: 80px;
+    }
+    .hero-left{
+        /* background-color: rgb(0, 255, 34); */
+        width: 100%;
+        height: 600px;
+    }
+    .hero-right img{
+        height: 250px;
+        width: 220px;
+
+    }
+    .left-content{
+        top: 30px;
+        position: absolute;
+        left: 0px;
+    }
+    .left-content h1{
+        font-size: 25px;
+
+    }
+    /* .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+     .container2{
+        /* background-color: yellow; */
+        height: 600px;
+       
+     }
+     .boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+     }
+    .box1{
+        position: absolute;
+        top: 10px;
+        height: 100px;
+        width: 150px;
+        /* background-color: red; */
+    }
+    .box2{
+        
+        height: 100px;
+        width: 150px;
+        /* background-color: red; */
+        position: absolute;
+        top: 300px;
+        left: 160px;
+    }
+    .box3{
+        position: absolute;
+        top: 10px;
+        height: 100px;
+        width: 150px;
+        /* background-color: red; */   
+    }
+
+    .container3{
+        background-color: aquamarine;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
